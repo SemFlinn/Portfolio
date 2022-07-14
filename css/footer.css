@@ -101,10 +101,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
   height: 70px;
-  padding: 0 0 20px 0;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+
+.footer__container p {
+  opacity: 0.8;
+  position: absolute;
+  left: 30px;
+}
+
 @media (max-width: 450px) {
   .footer {
     height: 100px;
@@ -122,6 +131,14 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: space-between;
 }
 @media (max-width: 450px) {
+  .footer__container p {
+    top: -15px;
+    left: calc(50% - 14%);
+  }
+  .footer a {
+    top: 15px;
+    left: calc(50% - 13%);
+  }
   .footer__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -130,9 +147,6 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .footer__container p {
-    margin: 0 0 10px 0;
   }
   .footer__container_list {
     margin: 0 0 10px 0;
@@ -153,6 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer a {
   opacity: 0.8;
   color: #a8f5ff;
+  position: absolute;
+  right: 25px;
 }
 .footer a:hover {
   opacity: 1;
