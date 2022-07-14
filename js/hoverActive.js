@@ -1,0 +1,1 @@
+let menuParents=document.querySelectorAll("li");for(let e=0;e<menuParents.length;e++){const t=menuParents[e];t.addEventListener("mouseenter",(function(e){t.classList.add("active")})),t.addEventListener("mouseleave",(function(e){t.classList.remove("active")}))}
