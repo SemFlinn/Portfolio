@@ -343,7 +343,7 @@ body._lock {
 @media (max-width: 767px) {
   .page__section {
     padding: 10px;
-    margin: 0 auto 5px auto;
+    margin: 0 auto 20px auto;
   }
 }
 .page__section1_bg {
