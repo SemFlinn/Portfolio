@@ -113,6 +113,10 @@ body._lock {
 }
 
 .wrapper {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  
+  
   max-width: 100%;
   width: 100%;
   height: 100%;
