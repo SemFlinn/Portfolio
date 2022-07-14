@@ -3,6 +3,8 @@
 const header = document.querySelector('.header');
 //Находим контент
 const page = document.querySelector('.page');
+//Находим футер
+const footer = document.querySelector('.footer');
 //Находим высоту хедера
 const headerHeight = header.offsetHeight;
 //Находим высоту контента
@@ -20,7 +22,7 @@ window.addEventListener('scroll', () => {
     if (scrollDistance > lastScrollTop) {
         //Убираем у хедера класс 
         header.classList.remove('header__fixed');
-
+        footer.classList.remove('footer__fixed');
         page.classList.remove('page__fixed');
         //Зазмер отступа контента равен нулю
         page.style.marginTop = null;
@@ -28,7 +30,7 @@ window.addEventListener('scroll', () => {
     } else {
         //Добавляем хедеру класс
         header.classList.add('header__fixed');
-
+        footer.classList.add('footer__fixed');
         page.classList.add('page__fixed');
         //Зазмер отступа контента равен высоте хедера
         page.style.marginTop = '${headerHeight}px';
