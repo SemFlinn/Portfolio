@@ -105,7 +105,9 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -45px;
   width: 100%;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
+  max-width: 1210px;
+  left: calc(50% - 605px);
 }
 
 .footer__container p {
