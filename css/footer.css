@@ -140,11 +140,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 450px) {
   .footer__container p {
     top: -15px;
-    left: calc(50% - 14%);
+    left: calc(50% - 16%);
   }
   .footer a {
     top: 15px;
-    left: calc(50% - 13%);
+    left: calc(50% - 15%);
   }
   .footer__container {
     -webkit-box-orient: vertical;
