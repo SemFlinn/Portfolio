@@ -390,7 +390,7 @@ video {
 }
 
 .slide2-1 {
-  background-color: #333;
+  background-color: #000;
   background-position: 0 0;
   padding: 0;
   position: relative;
@@ -399,12 +399,12 @@ video {
 
 .slide2-2 {
   overflow: hidden;
-  background-color: red;
+  background-color: #000;
   background-position: 0 0;
 }
 
 .slide2-3 {
-  background-color: orange;
+  background-color: #000;
   background-size: 110%;
 }
 
