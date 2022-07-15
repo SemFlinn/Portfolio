@@ -146,14 +146,6 @@ body._lock {
   height: 100%;
 }
 
-.page__fixed {
-  padding: 90px 0 30px 0;
-}
-
-._touch .page__fixed {
-  padding: 90px 0 30px 0;
-}
-
 .content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
