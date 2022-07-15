@@ -180,6 +180,3 @@ h1, h2, h3, h4, h5, h6 {
 .footer a:hover {
   opacity: 1;
 }
-.footer__fixed {
-  padding: 90px 0 30px 0;
-}
