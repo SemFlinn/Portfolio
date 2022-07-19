@@ -109,25 +109,6 @@ body {
   background-repeat: repeat;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
-  
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: new;
-          animation-name: new;
-}
-
-@-webkit-keyframes new {
-  
-  100%{background-image: url("../img/bg.jpg");}
-}
-  
-@keyframes new {
-  
-  100%{background-image: url("../img/bg.jpg");}
 }
 
 body._lock {
