@@ -670,3 +670,12 @@ body._lock {
 .page__sectionI3 {
   padding: 0;
 }
+body.visible {
+  background-image: url("../img/bg.jpg");
+}
+.page__section1_image1.visible {
+  background-image: url("../img/page1/0001.jpg");
+}
+.page__section2_fly3.visible {
+  background-image: url("../img/page1/2.png");
+}
