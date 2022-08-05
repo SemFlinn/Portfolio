@@ -521,8 +521,12 @@ video {
   height: 100%;
   border-style: none;
   clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 50%);
-  user-select: none;
-  -webkit-user-select: none;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
 }
 @media (max-width: 500px) {
   .gallery-nav-left3 {
@@ -540,8 +544,12 @@ video {
   height: 100%;
   border-style: none;
   clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%, 100% 50%);
-  user-select: none;
-  -webkit-user-select: none;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
 }
 @media (max-width: 500px) {
   .gallery-nav-right3 {
