@@ -520,6 +520,7 @@ video {
   width: 10%;
   height: 100%;
   border-style: none;
+  -webkit-clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 50%);
   clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 50%);
   -webkit-touch-callout: none; 
     -webkit-user-select: none; 
@@ -543,6 +544,7 @@ video {
   width: 10%;
   height: 100%;
   border-style: none;
+  -webkit-clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%, 100% 50%);
   clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%, 100% 50%);
   -webkit-touch-callout: none; 
     -webkit-user-select: none; 
